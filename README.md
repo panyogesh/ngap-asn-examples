@@ -1,4 +1,4 @@
-# ngap-asn-Examples
+# ngap-asn-examples
 NGAP Libraries from OpenSources to show some quick examples
 
 Right now taken generated lib NGAP files and wrote a sample code to show flavors of encoding/decoding.
