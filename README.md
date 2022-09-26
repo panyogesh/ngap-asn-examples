@@ -1,11 +1,8 @@
-# ngap-asn-examples
-NGAP Libraries from OpenSources to show some quick examples
+## ASN File Related Learning
 
-Right now taken generated lib NGAP files and wrote a sample code to show flavors of encoding/decoding.
-In future will try to generate these lib files to show complete examples.
-
-1. asn-sample-programs : Sample code to show ngap reset partial
-   - cd asn-sample-programs/build
-   - cmake ..
-   - make
-   - asn_sample_pgm
+### asn-extract-from-docs
+* Shows how to extract asns from the 3gpp docs
+   
+### asn-sample-programs
+* Steps to compile a sample code with given auto generated
+  c files from given asn

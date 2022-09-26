@@ -1,0 +1,9 @@
+git clone https://github.com/FredericLeroy/libngapcodec.git
+sudo apt install default-jre libreoffice-java-common
+sudo apt-get install libreoffice-writer
+- Option 1 :
+   sudo ./scripts/update_3gpp_spec_ts38413.py -v 16.2.0 -o asn.1 38413
+
+- Option 2: 
+  wget https://www.3gpp.org/ftp/Specs/archive/38_series/38.413/38413-g20.zip
+  sudo soffice --headless --cat 38413-g20.doc
