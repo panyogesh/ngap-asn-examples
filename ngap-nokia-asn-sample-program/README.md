@@ -16,7 +16,8 @@
 ### Refer to asn-extract-from-docs for getting the asn entries from DOCS for NGAP
 
 ### Install the files for asn
-* cd <PATH>/ngap-asn-examples/ngap-nokia-asn-sample-program 
+* git clone https://github.com/panyogesh/ngap-asn-examples.git
+* cd ngap-asn-examples/ngap-nokia-asn-sample-program 
 * asn1c -pdu=all -fcompound-names -findirect-choice -fno-include-deps  -no-gen-OER  -gen-PER -D . ../ngap-asn.txt 
 * rm converter-example.*
 * Patch ProtcolExtension-Patch required for ProtocolExtensionField.c
