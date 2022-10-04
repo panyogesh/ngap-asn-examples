@@ -7,5 +7,5 @@
 * Steps to compile a sample code with given auto generated
   c files from given asn
 
-## ngap-nokia-asn-sample-program
+### ngap-nokia-asn-sample-program
 * Steps to install new asn1c and generate asn files for NGAP and run a sample code.
