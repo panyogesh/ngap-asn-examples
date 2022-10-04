@@ -19,14 +19,7 @@
 * cd <PATH>/ngap-asn-examples/ngap-nokia-asn-sample-program 
 * asn1c -pdu=all -fcompound-names -findirect-choice -fno-include-deps  -no-gen-OER  -gen-PER -D . ../ngap-asn.txt 
 * rm converter-example.*
-* Following patch required for ProtocolExtensionField.c
-------------------------------------------------------
-vagrant@distro-magma:~/TMP$ diff ProtocolExtensionField.c.orig ProtocolExtensionField.c
-39196c39196
-<               { 0, &asn_PER_memb_OCTET_STRING_CONTAINING_PDUSessionResourceReleaseResponseTransfer__constr_42,  memb_OCTET_STRING_CONTAINING_PDUSessionResourceReleaseResponseTransfer__constraint_628 },
----
->               { 0, 0,  memb_OCTET_STRING_CONTAINING_PDUSessionResourceReleaseResponseTransfer__constraint_628 },
-------------------------------------------------------
+* Patch ProtcolExtension-Patch required for ProtocolExtensionField.c
 
 ### Build and run the sample code of modified_main_asn.c
 * mkdir build
