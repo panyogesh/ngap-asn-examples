@@ -13,7 +13,7 @@
 * sudo make install
 
 
-### Refer to asn-extract-from-docs for getting the asn entries from PDF for NGP
+### Refer to asn-extract-from-docs for getting the asn entries from DOCS for NGP
 
 ### Install the files for asn
 * cd <PATH>/ngap-asn-examples/ngap-nokia-asn-sample-program 
